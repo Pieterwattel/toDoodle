@@ -1,0 +1,33 @@
+*main
+    eventlistener for creating a new todo
+    eventlistener for removing a todo
+
+*todoGod
+    class todo {
+        this.name
+        this.finished
+    }
+
+    createTodo()
+        new todo
+        store todo in todoStorage
+
+*domDeclarations
+
+*todoStorage
+
+*domManipulation
+    displayAllTodos()
+
+*displayTodos
+    for each todo in array =>
+        let tableRow = tr
+        let details = details
+        let summary = summary
+
+        tablerow.append details
+        details.append summary
+
+        summary.textContent = todo.name
+        details.textcontent = "details, details about " + todo.name
+        details.append button

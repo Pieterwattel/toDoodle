@@ -5,11 +5,16 @@
 <head>
     <meta charset="utf-8">
     <title>HTML boilerplate</title>
-    <script src="./main.js" defer></script>
+    <script type="module" src="./main.js" defer></script>
 </head>
 
 <body>
-    yes
+    <label for="todoName">name</label>
+    <input type="text" name="todoName" id="nameInput">
+    <button id="createTodoBtn">createTodo</button>
+
+    <table id="todoDisplay">
+    </table>
 </body>
 
 </html>
