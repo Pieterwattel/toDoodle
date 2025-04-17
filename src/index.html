@@ -9,12 +9,21 @@
 </head>
 
 <body>
-    <label for="todoName">name</label>
-    <input type="text" name="todoName" id="nameInput">
-    <button id="createTodoBtn">createTodo</button>
 
-    <table id="todoDisplay">
-    </table>
+    <div id="mainContent">
+        <div id="leftSideDiv">
+            <label for="todoName">name</label>
+            <input type="text" name="todoName" id="nameInput">
+            <button id="createTodoBtn">createTodo</button>
+
+            <div id="todoDetails"></div>
+        </div>
+
+        <div id="rightSideDiv">
+            <table id="todoDisplay">
+            </table>
+        </div>
+    </div>
 </body>
 
 </html>

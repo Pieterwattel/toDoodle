@@ -31,3 +31,8 @@
         summary.textContent = todo.name
         details.textcontent = "details, details about " + todo.name
         details.append button
+
+adding elements:
+letting details show up on a seperate div
+add option to finsh divs
+add remove button to details
